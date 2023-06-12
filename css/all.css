@@ -1,0 +1,145 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.wrap{
+    max-width: 1920px;
+    margin: 0 auto;
+    box-shadow: 0 0 3px black;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.header h1{
+    font-family: Castoro;
+    font-size: 128px;
+    letter-spacing: 0.12em;
+    font-style: normal;
+    margin-top: 160px;
+    margin-left: 312px;
+    line-height: 192px;
+}
+.header span{
+    margin-left: 660px;
+}
+.header img{
+    max-width: 636px;
+    height: 848px;
+    display: block;
+    margin-left: 330px;
+    margin-right: 642px;
+}
+.content{
+    padding-bottom: 160px;
+}
+.content .content-profile{
+    background-color: #EFEFEF;
+}
+.content .content-profile p{
+    font-family: Castoro;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    padding: 48px 312px 48px 972px;
+}
+.content .content-experience{
+    max-width: 636px;
+    padding-top: 40px;
+    margin-left: 312px;
+}
+.content .content-experience h2{
+    font-family: Castoro;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    color: #AE0000;
+    border-bottom: 3px solid #AE0000;
+    margin-top: 40px;
+}
+.content .content-experience p{
+    font-family: Castoro;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    padding-top: 16px;
+}
+.content .time{
+    display: block;
+    font-family: Castoro;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #949494;
+}
+.footer{
+    background-color: black;
+    padding: 64px 0 64px 0;
+}
+.footer .footer-fb{
+    width: 64px;
+    height: 63.61px;
+    margin-left: 824px;
+}
+.footer .footer-ig{
+    height: 64px;
+    margin-left: 40px;
+}
+.footer .footer-line{
+    height: 64px;
+    margin-left: 40px;
+}
