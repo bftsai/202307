@@ -111,6 +111,7 @@ body{
         padding: 0;
     }
     .profile-bg .profile p{
+        width: 190.8px;
         font-size: 9.6px;
     }
 }
