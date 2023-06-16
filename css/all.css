@@ -185,11 +185,17 @@ body{
         width: 19.2px;
         height: 19.08px;
     }
-    .footer .footer-ig{
-        height: 19.2px;
-        margin: 0 12px;
+    .footer .footer-fb img{
+        width: 19.2px;
+        height: 19.08px;
     }
-    .footer .footer-line{
+    .footer .footer-ig img{
         height: 19.2px;
+    }
+    .footer .footer-line img{
+        height: 19.2px;
+    }
+    .footer .footer-ig{
+        margin: 0 12px;
     }
 }
