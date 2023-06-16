@@ -78,6 +78,11 @@ body{
     display: block;
     margin: 0 auto;
 }
+@media (max-width: 390px) {
+    .header{
+        width: 390px;
+    }
+}
 .profile-bg{
     background-color: #EFEFEF;
     padding: 48px 0;
