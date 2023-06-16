@@ -88,7 +88,7 @@ body{
         letter-spacing: 0.036em;
     }
     .header img{
-        width: 30%;
+        width: 50%;
     }
 }
 .profile-bg{
@@ -104,6 +104,15 @@ body{
     font-weight: 400;
     font-size: 32px;
     margin-left: auto;
+}
+@media (max-width: 390px) {
+    .profile-bg .profile{
+        width: 390;
+        padding: 0;
+    }
+    .profile-bg .profile p{
+        font-size: 9.6px;
+    }
 }
 .content-experience{
     max-width: 1282px;
@@ -132,6 +141,26 @@ body{
     font-size: 20px;
     color: #949494;
 }
+@media (max-width: 390px) {
+    .content-experience{
+        width: 390px;
+        padding: 12px 0 48px;
+    }
+    .content-experience li{
+        width: 190.8px;
+    }
+    .content-experience.content-experience-title{
+        font-size: 12px;
+        margin: 12px 0;
+    }
+    .content-experience .content-experience-normal{
+        font-size: 7.2px;
+        padding-top: 2.4px;
+    }
+    .content-experience .time{
+        font-size: 6px;
+    }
+}
 .footer{
     background-color: black;
     padding: 64px 0;
@@ -147,4 +176,20 @@ body{
 }
 .footer .footer-line{
     height: 64px;
+}
+@media (max-width: 390px) {
+    .footer{
+        padding: 19.2px 0;
+    }
+    .footer .footer-fb{
+        width: 19.2px;
+        height: 19.08px;
+    }
+    .footer .footer-ig{
+        height: 19.2px;
+        margin: 0 12px;
+    }
+    .footer .footer-line{
+        height: 19.2px;
+    }
 }
