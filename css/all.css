@@ -54,92 +54,84 @@ img{
     max-width: 100%;
     height: auto;
 }
-.wrap{
-    max-width: 1920px;
-    margin: 0 auto;
-    box-shadow: 0 0 3px black;
-    padding-left: 0px;
-    padding-right: 0px;
-}
-.header h1{
+body{
+    /*
     font-family: Castoro;
+    font-style: normal;
+    */
+    font-family: 'Castoro', serif;
+    line-height: 1.5;
+}
+.header{
+    max-width: 1282px;
+    margin: 0 auto;
+    padding-top: 160px;
+}
+.header h1,h2{
     font-size: 128px;
     letter-spacing: 0.12em;
-    font-style: normal;
-    margin-top: 160px;
-    margin-left: 312px;
-    line-height: 192px;
 }
-.header span{
-    margin-left: 660px;
+.header h2{
+    text-align: right;
 }
 .header img{
-    max-width: 636px;
-    height: 848px;
     display: block;
-    margin-left: 330px;
-    margin-right: 642px;
+    margin: 0 auto;
 }
-.content{
-    padding-bottom: 160px;
-}
-.content .content-profile{
+.profile-bg{
     background-color: #EFEFEF;
+    padding: 48px 0;
 }
-.content .content-profile p{
-    font-family: Castoro;
-    font-style: normal;
+.profile-bg .profile{
+    max-width: 1282px;
+    margin: 0 auto;
+}
+.profile-bg .profile p{
+    max-width: 636px;
     font-weight: 400;
     font-size: 32px;
-    line-height: 48px;
-    padding: 48px 312px 48px 972px;
+    margin-left: auto;
 }
-.content .content-experience{
+.content-experience{
+    max-width: 1282px;
+    padding: 40px 0 160px;
+    margin: 0 auto;
+}
+.content-experience li{
     max-width: 636px;
-    padding-top: 40px;
-    margin-left: 312px;
 }
-.content .content-experience h2{
-    font-family: Castoro;
-    font-style: normal;
+.content-experience .content-experience-title{
     font-weight: 400;
     font-size: 40px;
-    line-height: 60px;
     color: #AE0000;
     border-bottom: 3px solid #AE0000;
-    margin-top: 40px;
+    margin: 40px 0 8px;
 }
-.content .content-experience p{
-    font-family: Castoro;
-    font-style: normal;
+.content-experience .content-experience-normal{
     font-weight: 400;
     font-size: 24px;
-    line-height: 36px;
-    padding-top: 16px;
+    padding-top: 8px;
 }
-.content .time{
+.content-experience .time{
     display: block;
-    font-family: Castoro;
     font-style: italic;
     font-weight: 400;
     font-size: 20px;
-    line-height: 30px;
     color: #949494;
 }
 .footer{
     background-color: black;
-    padding: 64px 0 64px 0;
+    padding: 64px 0;
+    text-align: center;
 }
 .footer .footer-fb{
     width: 64px;
     height: 63.61px;
-    margin-left: 824px;
 }
 .footer .footer-ig{
     height: 64px;
-    margin-left: 40px;
+    margin: 0 40px;
 }
 .footer .footer-line{
     height: 64px;
-    margin-left: 40px;
 }
