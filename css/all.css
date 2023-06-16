@@ -82,6 +82,13 @@ body{
     .header{
         width: 390px;
     }
+    .header h1,h2{
+        font-size: 38.4px;
+        letter-spacing: 0.036em;
+    }
+    .header img{
+        width: 30%;
+    }
 }
 .profile-bg{
     background-color: #EFEFEF;
